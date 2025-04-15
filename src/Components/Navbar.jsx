@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from '../assets/logo.png';
+import logo from '../assets/logo2.png';
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 import { AnimatePresence, motion } from "framer-motion";

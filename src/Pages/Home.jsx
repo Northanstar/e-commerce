@@ -1,16 +1,15 @@
 import React from 'react'
+import Hero from '../Components/Hero'
+import Feature from '../Components/Feature'
+import Gallery from '../Components/Gallery'
 
 const Home = () => {
   return (
-    <section className="hero-section">
-    <div className="content">
-      <h2>Feel more confident</h2>
-      <p>
-      a global leader in athletic footwear and apparel, is known for its innovative products, iconic logo
-      </p>
-      <button>Order Now</button>
+    <div>
+      <Hero/>
+      <Feature/>
+      <Gallery/>
     </div>
-  </section>
   )
 }
 
